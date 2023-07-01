@@ -1,5 +1,12 @@
 # ESP32_TFT
-### User_Setup_Select.h  ==>from //#include <User_Setups/Setup21_ILI9488.h>  to #include <User_Setups/Setup21_ILI9488.h> 
+## Install 
+```
+https://github.com/Bodmer/TFT_eSPI
+```
+### User_Setup_Select.h  
+```
+Change from //#include <User_Setups/Setup21_ILI9488.h>  to #include <User_Setups/Setup21_ILI9488.h> 
+```
 ### Setup1_ILI9341.h
 ```
 #define RPI_DISPLAY_TYPE
