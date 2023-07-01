@@ -1,6 +1,7 @@
 # ESP32_TFT
-### User_Setup_Select.h  ==> enable #include <User_Setups/Setup21_ILI9488.h> 
-'''
+### User_Setup_Select.h  ==>from //#include <User_Setups/Setup21_ILI9488.h>  to #include <User_Setups/Setup21_ILI9488.h> 
+### Setup1_ILI9341.h
+```
 #define RPI_DISPLAY_TYPE
 #define ILI9486_DRIVER
 
@@ -24,5 +25,5 @@
 #define SMOOTH_FONT
 #define SPI_FREQUENCY  26000000 
 #define SPI_TOUCH_FREQUENCY  2500000
-'''
+```
 ![alt text](https://github.com/SurawutSukkum/ESP32_TFT/blob/main/test.jpg?raw=true)
